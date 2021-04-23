@@ -9,22 +9,25 @@ import {
   CarouselItem,
   CarouselIndicators,
 } from "reactstrap";
+import bg1 from "assets/img/bg1.jpg";
+import bg3 from "assets/img/bg3.jpg";
+import bg4 from "assets/img/bg4.jpg";
 
 // core components
 
 const items = [
   {
-    src: require("assets/img/bg1.jpg"),
+    src: bg1,
     altText: "Nature, United States",
     caption: "Nature, United States",
   },
   {
-    src: require("assets/img/bg3.jpg"),
+    src: bg3,
     altText: "Somewhere Beyond, United States",
     caption: "Somewhere Beyond, United States",
   },
   {
-    src: require("assets/img/bg4.jpg"),
+    src: bg4,
     altText: "Yellowstone National Park, United States",
     caption: "Yellowstone National Park, United States",
   },

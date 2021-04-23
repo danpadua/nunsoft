@@ -16,7 +16,7 @@ import {
   Row,
   Col,
 } from "reactstrap";
-
+import bg7 from "assets/img/bg7.jpg";
 // core components
 
 function Navbars() {
@@ -212,7 +212,7 @@ function Navbars() {
           <div
             className="navigation-example"
             style={{
-              backgroundImage: "url(" + require("assets/img/bg7.jpg") + ")",
+              backgroundImage: `url("${bg7}")`,
             }}
           >
             <Navbar className="bg-primary" expand="lg">

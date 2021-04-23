@@ -2,6 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 // reactstrap components
 import { Button, Container, Row } from "reactstrap";
+import landingImage from "assets/img/landing.jpg";
+import profileImage from "assets/img/profile.jpg";
 
 // core components
 
@@ -17,7 +19,7 @@ function Examples() {
                 <img
                   alt="..."
                   className="img-raised"
-                  src={require("assets/img/landing.jpg")}
+                  src={landingImage}
                 ></img>
               </a>
               <Button
@@ -35,7 +37,7 @@ function Examples() {
                 <img
                   alt="..."
                   className="img-raised"
-                  src={require("assets/img/profile.jpg")}
+                  src={profileImage}
                 ></img>
               </a>
               <Button

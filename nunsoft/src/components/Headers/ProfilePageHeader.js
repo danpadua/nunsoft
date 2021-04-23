@@ -2,7 +2,8 @@ import React from "react";
 
 // reactstrap components
 import { Container } from "reactstrap";
-
+import bg5 from "assets/img/bg5.jpg";
+import ryanImage from "assets/img/ryan.jpg";
 // core components
 
 function ProfilePageHeader() {
@@ -30,13 +31,13 @@ function ProfilePageHeader() {
         <div
           className="page-header-image"
           style={{
-            backgroundImage: "url(" + require("assets/img/bg5.jpg") + ")",
+            backgroundImage: `url("${bg5}")`,
           }}
           ref={pageHeader}
         ></div>
         <Container>
           <div className="photo-container">
-            <img alt="..." src={require("assets/img/ryan.jpg")}></img>
+            <img alt="..." src={ryanImage}></img>
           </div>
           <h3 className="title">Ryan Scheinder</h3>
           <p className="category">Photographer</p>

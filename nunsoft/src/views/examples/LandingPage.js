@@ -11,7 +11,12 @@ import {
   Row,
   Col,
 } from "reactstrap";
-
+import loginImage from "assets/img/login.jpg";
+import bg3 from "assets/img/bg3.jpg";
+import bg1 from "assets/img/bg1.jpg";
+import avatarImage from "assets/img/avatar.jpg";
+import ryanImage from "assets/img/ryan.jpg";
+import evaImage from "assets/img/eva.jpg";
 // core components
 import ExamplesNavbar from "components/Navbars/ExamplesNavbar.js";
 import LandingPageHeader from "components/Headers/LandingPageHeader.js";
@@ -57,8 +62,7 @@ function LandingPage() {
                   <div
                     className="image-container image-left"
                     style={{
-                      backgroundImage:
-                        "url(" + require("assets/img/login.jpg") + ")",
+                      backgroundImage: `url("${loginImage}")`
                     }}
                   >
                     <p className="blockquote blockquote-info">
@@ -72,8 +76,7 @@ function LandingPage() {
                   <div
                     className="image-container"
                     style={{
-                      backgroundImage:
-                        "url(" + require("assets/img/bg3.jpg") + ")",
+                      backgroundImage: `url("${bg3}")`
                     }}
                   ></div>
                 </Col>
@@ -81,8 +84,7 @@ function LandingPage() {
                   <div
                     className="image-container image-right"
                     style={{
-                      backgroundImage:
-                        "url(" + require("assets/img/bg1.jpg") + ")",
+                      backgroundImage: `url("${bg1}")`
                     }}
                   ></div>
                   <h3>
@@ -133,7 +135,7 @@ function LandingPage() {
                     <img
                       alt="..."
                       className="rounded-circle img-fluid img-raised"
-                      src={require("assets/img/avatar.jpg")}
+                      src={avatarImage}
                     ></img>
                     <h4 className="title">Romina Hadid</h4>
                     <p className="category text-info">Model</p>
@@ -177,7 +179,7 @@ function LandingPage() {
                     <img
                       alt="..."
                       className="rounded-circle img-fluid img-raised"
-                      src={require("assets/img/ryan.jpg")}
+                      src={ryanImage}
                     ></img>
                     <h4 className="title">Ryan Tompson</h4>
                     <p className="category text-info">Designer</p>
@@ -213,7 +215,7 @@ function LandingPage() {
                     <img
                       alt="..."
                       className="rounded-circle img-fluid img-raised"
-                      src={require("assets/img/eva.jpg")}
+                      src={evaImage}
                     ></img>
                     <h4 className="title">Eva Jenner</h4>
                     <p className="category text-info">Fashion</p>

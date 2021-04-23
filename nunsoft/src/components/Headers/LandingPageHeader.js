@@ -2,7 +2,7 @@ import React from "react";
 
 // reactstrap components
 import { Button, Container } from "reactstrap";
-
+import bg6 from "assets/img/bg6.jpg";
 // core components
 
 function LandingPageHeader() {
@@ -27,7 +27,7 @@ function LandingPageHeader() {
         <div
           className="page-header-image"
           style={{
-            backgroundImage: "url(" + require("assets/img/bg6.jpg") + ")",
+            backgroundImage: `url("${bg6}")`,
           }}
           ref={pageHeader}
         ></div>

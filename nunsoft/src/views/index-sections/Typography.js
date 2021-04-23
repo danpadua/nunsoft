@@ -2,7 +2,7 @@ import React from "react";
 
 // reactstrap components
 import { Container, Row, Col } from "reactstrap";
-
+import julieImage from "assets/img/julie.jpg";
 // core components
 
 function Typography() {
@@ -135,7 +135,7 @@ function Typography() {
                 <img
                   alt="..."
                   className="rounded"
-                  src={require("assets/img/julie.jpg")}
+                  src={julieImage}
                 ></img>
               </Col>
               <Col sm="2">
@@ -143,7 +143,7 @@ function Typography() {
                 <img
                   alt="..."
                   className="rounded-circle"
-                  src={require("assets/img/julie.jpg")}
+                  src={julieImage}
                 ></img>
               </Col>
               <Col sm="2">
@@ -151,7 +151,7 @@ function Typography() {
                 <img
                   alt="..."
                   className="rounded img-raised"
-                  src={require("assets/img/julie.jpg")}
+                  src={julieImage}
                 ></img>
               </Col>
               <Col sm="2">
@@ -159,7 +159,7 @@ function Typography() {
                 <img
                   alt="..."
                   className="rounded-circle img-raised"
-                  src={require("assets/img/julie.jpg")}
+                  src={julieImage}
                 ></img>
               </Col>
             </Row>

@@ -15,7 +15,8 @@ import {
   Container,
   Col,
 } from "reactstrap";
-
+import loginImage from "assets/img/login.jpg";
+import nowLogoImage from "assets/img/now-logo.png";
 // core components
 import ExamplesNavbar from "components/Navbars/ExamplesNavbar.js";
 import TransparentFooter from "components/Footers/TransparentFooter.js";
@@ -41,7 +42,7 @@ function LoginPage() {
         <div
           className="page-header-image"
           style={{
-            backgroundImage: "url(" + require("assets/img/login.jpg") + ")",
+            backgroundImage: `url("${loginImage}")`
           }}
         ></div>
         <div className="content">
@@ -53,7 +54,7 @@ function LoginPage() {
                     <div className="logo-container">
                       <img
                         alt="..."
-                        src={require("assets/img/now-logo.png")}
+                        src={nowLogoImage}
                       ></img>
                     </div>
                   </CardHeader>

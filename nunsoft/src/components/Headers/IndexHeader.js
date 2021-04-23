@@ -3,6 +3,10 @@ import React from "react";
 
 // reactstrap components
 import { Container } from "reactstrap";
+import headerImage from "assets/img/header.jpg";
+import nowLogoImage from "assets/img/now-logo.png";
+import invisionWhiteSlimImage from "assets/img/invision-white-slim.png";
+import creativeTimWhiteSlim from "assets/img/creative-tim-white-slim2.png";
 // core components
 
 function IndexHeader() {
@@ -28,7 +32,7 @@ function IndexHeader() {
         <div
           className="page-header-image"
           style={{
-            backgroundImage: "url(" + require("assets/img/header.jpg") + ")",
+            backgroundImage: `url("${headerImage}")`,
           }}
           ref={pageHeader}
         ></div>
@@ -37,7 +41,7 @@ function IndexHeader() {
             <img
               alt="..."
               className="n-logo"
-              src={require("assets/img/now-logo.png")}
+              src={nowLogoImage}
             ></img>
             <h1 className="h1-seo">Now UI Kit.</h1>
             <h3>A beautiful Bootstrap 4 UI kit. Yours free.</h3>
@@ -48,7 +52,7 @@ function IndexHeader() {
               <img
                 alt="..."
                 className="invision-logo"
-                src={require("assets/img/invision-white-slim.png")}
+                src={invisionWhiteSlimImage}
               ></img>
             </a>
             . Coded by{" "}
@@ -59,7 +63,7 @@ function IndexHeader() {
               <img
                 alt="..."
                 className="creative-tim-logo"
-                src={require("assets/img/creative-tim-white-slim2.png")}
+                src={creativeTimWhiteSlim}
               ></img>
             </a>
             .
