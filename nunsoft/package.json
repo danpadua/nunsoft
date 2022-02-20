@@ -1,5 +1,6 @@
 {
   "name": "nunsoft",
+  "author": "Danilo Pádua",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
