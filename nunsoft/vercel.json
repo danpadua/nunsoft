@@ -1,5 +1,5 @@
 {
-	"build": {
-		"env": {}
-	}
+	"buildCommand": "next build",
+	"framework": "nextjs",
+	"outputDirectory": "build"
 }
