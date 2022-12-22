@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://startup-app-modern.vercel.app
+Host: nunsoft-v1-1ug821qpf-danpadua.vercel.app
 
 # Sitemaps
-Sitemap: https://startup-app-modern.vercel.app/sitemap.xml
+Sitemap: nunsoft-v1-1ug821qpf-danpadua.vercel.app/sitemap.xml
