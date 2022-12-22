@@ -1,8 +1,6 @@
-/** @jsx jsx */
-import { jsx } from 'theme-ui';
 import { Container, Flex, Box, Heading, Text, Image, Button, Link } from 'theme-ui';
-import BannerBG from 'assets/bannerBg.png';
-import BannerThumb from 'assets/banner-thumb.png';
+// import BannerBG from 'assets/bannerBg.png';
+// import BannerThumb from 'assets/banner-thumb.png';
 import WhatsappLogo from 'assets/whatsapp-logo.svg';
 
 export default function Banner() {
@@ -30,7 +28,7 @@ export default function Banner() {
           </Flex>
         </Box>
         <Box sx={styles.banner.imageBox}>
-          <Image src={BannerThumb} alt="banner" />
+          {/* <Image src={BannerThumb} alt="banner" /> */}
         </Box>
       </Container>
     </section>
@@ -40,7 +38,7 @@ export default function Banner() {
 const styles = {
   banner: {
     overflow: ['hidden', 'initial', null, 'hidden'],
-    backgroundImage: `url(${BannerBG})`,
+    // backgroundImage: `url(${BannerBG})`,
     backgroundRepeat: `no-repeat`,
     backgroundPosition: 'top left',
     backgroundSize: 'cover',

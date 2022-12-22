@@ -1,5 +1,4 @@
-/** @jsx jsx */
-import { jsx, Container, Box } from 'theme-ui';
+import { Container, Box } from 'theme-ui';
 import SectionHeader from 'components/section-header';
 import Accordion from 'components/accordion/accordion';
 const faqs = [

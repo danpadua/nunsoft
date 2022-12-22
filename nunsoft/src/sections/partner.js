@@ -1,9 +1,8 @@
-/** @jsx jsx */
-import { jsx, Container, Box } from 'theme-ui';
+import { Container, Box } from 'theme-ui';
 import TextFeature from 'components/text-feature';
 import Image from 'components/image';
 
-import Partner from 'assets/partner.png';
+// import Partner from 'assets/partner.png';
 
 const data = {
   subTitle: 'Core features',
@@ -28,7 +27,7 @@ export default function PartnerSection() {
           />
         </Box>
         <Box sx={{ px: [0, null, '40px', 0] }}>
-          <Image src={Partner} alt="Partner" />
+          {/* <Image src={Partner} alt="Partner" /> */}
         </Box>
       </Container>
     </section>

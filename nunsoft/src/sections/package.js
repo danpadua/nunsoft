@@ -1,9 +1,8 @@
-/** @jsx jsx */
-import { jsx, Container, Flex } from 'theme-ui';
+import { Container, Flex } from 'theme-ui';
 import PriceCard from 'components/price-card';
 import SectionHeader from 'components/section-header';
 import { IoIosCheckmarkCircle, IoIosCloseCircle } from 'react-icons/io';
-import PatternBG from 'assets/patternBG.png';
+// import PatternBG from 'assets/patternBG.png';
 
 const packages = [
   {
@@ -102,7 +101,7 @@ export default function Package() {
 const styles = {
   pricing: {
     backgroundColor: 'primary',
-    backgroundImage: `url(${PatternBG})`,
+    // backgroundImage: `url(${PatternBG})`,
     backgroundRepeat: `no-repeat`,
     backgroundPosition: 'center center',
     backgroundSize: 'cover',
