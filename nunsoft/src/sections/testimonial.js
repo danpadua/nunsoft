@@ -1,13 +1,14 @@
-import { Container, Heading, Text, Box, Image } from 'theme-ui';
+/** @jsx jsx */
+import { jsx, Container, Heading, Text, Box, Image } from 'theme-ui';
 import SectionHeader from 'components/section-header';
 import Rating from 'components/rating';
 import ButtonGroup from 'components/button-group';
 import Carousel from 'react-multi-carousel';
 
-// import Avatar1 from 'assets/testimonial/estyllus-logo.jpg';
-// import Avatar2 from 'assets/testimonial/mamute-logo.png';
-// import Avatar3 from 'assets/testimonial/avatar3.png';
-// import Avatar4 from 'assets/testimonial/avatar4.png';
+import Avatar1 from 'assets/testimonial/estyllus-logo.jpg';
+import Avatar2 from 'assets/testimonial/mamute-logo.png';
+import Avatar3 from 'assets/testimonial/avatar3.png';
+import Avatar4 from 'assets/testimonial/avatar4.png';
 import { Link } from 'components/link';
 
 const data = [
@@ -16,8 +17,7 @@ const data = [
     title: 'Serviço com qualidade e transparência',
     description:
       'Desenvolver o trabalho junto com a Nunsoft nos deu toda segurança que precisávamos, com profissionalismo, atendeu totalmente nossas necessidades.',
-    avatar: '',
-    // avatar: Avatar1,
+    avatar: Avatar1,
     name: 'Aléx',
     designation: '@estyllusoficial',
     review: 5,
@@ -27,8 +27,7 @@ const data = [
     title: 'Muito rápido e com qualidade',
     description:
       'Atendimento muito bom. Precisei de pouca coisa no meu sistema, mas mesmo assim muito atenciosos ao entender o que eu queria.',
-    avatar: '',
-    // avatar: Avatar2,
+    avatar: Avatar2,
     name: 'Mamute Designer',
     designation: '@mamutedesigner',
     review: 4,

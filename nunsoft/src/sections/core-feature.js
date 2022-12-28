@@ -1,8 +1,9 @@
-import { Container, Box, Grid, Text, Heading } from 'theme-ui';
+/** @jsx jsx */
+import { jsx, Container, Box, Grid, Text, Heading } from 'theme-ui';
 import TextFeature from 'components/text-feature';
 import Image from 'components/image';
 
-// import CoreFeatureThumb from 'assets/coreFeature.png';
+import CoreFeatureThumb from 'assets/coreFeature.png';
 import Briefcase from 'assets/core-feature/briefcase.svg';
 import Secure from 'assets/core-feature/secure.svg';
 
@@ -34,7 +35,7 @@ export default function CoreFeature() {
     <section sx={styles.coreFeature}>
       <Container sx={styles.containerBox}>
         <Box sx={styles.thumbnail}>
-          {/* <Image src={CoreFeatureThumb} alt="Thumbnail" /> */}
+          <Image src={CoreFeatureThumb} alt="Thumbnail" />
         </Box>
         <Box sx={styles.contentBox}>
           <Box sx={styles.headingTop}>

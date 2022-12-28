@@ -1,4 +1,5 @@
-import { Image, Box, Heading, Text } from 'theme-ui';
+/** @jsx jsx */
+import { jsx, Image, Box, Heading, Text } from 'theme-ui';
 
 export default function FeatureCardColumn({
   src,

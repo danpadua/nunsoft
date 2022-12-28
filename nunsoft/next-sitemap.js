@@ -1,5 +1,5 @@
 module.exports = {
-  siteUrl: 'nunsoft-v1-1ug821qpf-danpadua.vercel.app',
+  siteUrl: 'https://startup-app-modern.vercel.app',
   generateRobotsTxt: true,
   // optional
   // robotsTxtOptions: {

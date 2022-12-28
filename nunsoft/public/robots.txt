@@ -1,9 +1,2 @@
-# *
 User-agent: *
-Allow: /
-
-# Host
-Host: nunsoft-v1-1ug821qpf-danpadua.vercel.app
-
-# Sitemaps
-Sitemap: nunsoft-v1-1ug821qpf-danpadua.vercel.app/sitemap.xml
+Sitemap: https://example.io/sitemap.xml
